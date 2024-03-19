@@ -56,6 +56,7 @@ import fb from '../../public/assets/shared/desktop/icon-facebook.svg'
 import tw from '../../public/assets/shared/desktop/icon-twitter.svg'
 import pin from '../../public/assets/shared/desktop/icon-pinterest.svg'
 import insta from '../../public/assets/shared/desktop/icon-instagram.svg'
+import yoytube from '../../public/assets/shared/desktop/icon-youtube.svg'
 
 import bgsmall from '../../public/assets/shared/desktop/bg-pattern-small-circle.svg'
 import bgtwo from '../../public/assets/shared/desktop/bg-pattern-two-circles.svg'
@@ -77,6 +78,7 @@ export const fbImg = fb
 export const twImg = tw
 export const pinImg = pin
 export const instaImg = insta
+export const yoytubeImg = yoytube
 
 export const bgsmallImg = bgsmall
 export const bgtwoImg = bgtwo
