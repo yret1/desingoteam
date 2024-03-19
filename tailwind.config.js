@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundPosition: {
+        'heromobile': "center 15%",
+        'herodesktop': "center 50%",
+      },
       fontFamily: {
         'jost': 'Jost, sans-serif',
       },

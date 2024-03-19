@@ -13,3 +13,14 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.bgone {
+  background-image: url("/public/assets/shared/desktop/bg-pattern-small-circle.svg");
+}
+.bgtwo {
+  background-image: url("/public/assets/shared/desktop/bg-pattern-two-circles.svg");
+}
+.bgthre {
+  background-image: url("/public/assets/shared/desktop/bg-pattern-three-circles.svg");
+}
