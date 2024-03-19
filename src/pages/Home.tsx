@@ -1,6 +1,7 @@
 import Hero from "../components/Hero"
 import Pagelink from "../components/Pagelink"
 import Moods from "../components/Moods"
+import ContactLink from "../components/ContactLink"
 const Home = () => {
 
     
@@ -28,6 +29,7 @@ const Home = () => {
             })}
         </section>
 
+            <ContactLink/>
 
     </section>
   )
