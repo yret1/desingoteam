@@ -38,13 +38,13 @@ const Moods = ({mood, index} : {mood: string, index: number}) => {
 
     }
   return (
-    <section className="flex flex-col items-center justify-center w-full md:flex-row md:px-10">
+    <section className="flex flex-col items-center justify-center w-full md:flex-row md:px-10 lg:flex-col lg:text-center">
 
-        <section className={`h-full w-full md:w-3/12 bg-center bg-contain flex-center bgone bg-no-repeat `}
+        <section className={`h-full w-full md:w-3/12 bg-center bg-contain flex-center bgone bg-no-repeat lg:w-full `}
         style={{backgroundImage: bg}}>
             <img src={img} alt="Mood image" className="h-full" />
         </section>
-        <section className="p-7 text-center lg:text-start md:w-7/12">
+        <section className="p-7 text-center md:text-start lg:text-center md:w-7/12 lg:w-full" >
         <h1 className="font-jost font-medium text-xl text-primary-200 pb-6">{mood}</h1>
         <p className="font-jost font-normal text-lg text-primary-200">{text}</p>
         </section>

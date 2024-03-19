@@ -18,7 +18,7 @@ const Footer = () => {
         </section>
 
 
-        <hr className="border-none h-[0.5px] hidden w-full bg-white bg-opacity-80 md:block md:my-5" />
+        <hr className="border-none h-[0.5px] hidden w-full bg-white bg-opacity-80 md:block md:my-16" />
 
     <section className="flex flex-col justify-center md:flex-row md:gap-12">
     <section className="flex flex-col w-full items-center justify-center text-center text-primary-300 text-opacity-50 py-6">

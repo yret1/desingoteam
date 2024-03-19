@@ -23,7 +23,7 @@ const Home = () => {
         </section>
 
 
-        <section className="flex flex-col justify-center items-center w-full gap-4">
+        <section className="flex flex-col justify-center items-center w-full gap-4 lg:flex-row">
             {moods.map((mood, index) => {
                 return <Moods mood={mood} index={index} key={index}/>
             })}
