@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { fbImg, instaImg, logoLightImg, pinImg, twImg, yoytubeImg } from "../utils"
 
 const Footer = () => {
@@ -10,10 +11,10 @@ const Footer = () => {
 
             <hr className="border-none h-[0.5px] w-full bg-white bg-opacity-80 md:hidden" />
 
-            <ul className="w-full flex flex-col text-white justify-center gap-5 items-center md:flex-row">
-                <li>OUR COMPANY</li>
-                <li>LOCATIONS</li>
-                <li>CONTACT</li>
+            <ul className="w-full flex flex-col text-white font-jost font-semibold  justify-center gap-5 items-center md:flex-row">
+                <Link className="hover:text-primary-100" to={"/company"}>OUR COMPANY</Link>
+                <Link className="hover:text-primary-100" to={"/locations"}>LOCATIONS</Link>
+                <Link className="hover:text-primary-100" to={"/contact"}>CONTACT</Link>
             </ul>
         </section>
 

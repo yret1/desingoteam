@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Hero = () => {
   return (
    <section className="w-full md:p-6 bg-white overflow-x-hidden">
@@ -10,7 +12,11 @@ const Hero = () => {
           responsive websites, app design, and engaging brand experiences. Find out more about our services.
       </p>
 
-      <button className="bg-white px-4 py-3 font-medium rounded-md">LEARN MORE</button>
+      <Link to={"/about"}>
+
+      <button className="bg-white px-4 py-3 font-medium rounded-md hover:text-white hover:bg-secondary-100">LEARN MORE</button>
+      </Link>
+
       </section>
 
       <section className="flex justify-start lg:flex-1 items-start overflow-hidden pt-6 bg-no-repeat flex-col bg-[url('/assets/home/desktop/image-hero-phone.png')] h-[450px] lg:h-full bg-auto bg-heromobile lg:bg-herodesktop"

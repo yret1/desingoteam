@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const ContactLink = () => {
   return (
@@ -12,7 +13,9 @@ const ContactLink = () => {
             <p className="font-jost text-sm text-white font-normal">Ready to take it to the next level? Contact us today and find out
                 how our expertise can help your business grow.</p>
 
-            <button className="bg-white px-4 py-3 font-medium rounded-md">GET IN TOUCH</button>
+            <Link to={"/contact"}>
+            <button className="bg-white px-4 py-3 font-medium rounded-md hover:text-white hover:bg-secondary-100">GET IN TOUCH</button>
+            </Link>
         </section>
 
     </section>
