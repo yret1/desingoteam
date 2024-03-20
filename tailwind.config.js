@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        5: '5px',
+        2: '2px',
+      },
       backgroundPosition: {
         'heromobile': "center 15%",
         'herodesktop': "center 50%",
