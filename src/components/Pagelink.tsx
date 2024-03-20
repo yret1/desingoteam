@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { rightarrowImg } from "../utils";
 import { Link } from "react-router-dom";
-import { cli } from "webpack";
+
 
 const Pagelink = ({title, index} : {title: string, index: number}) => {
 
@@ -53,7 +53,7 @@ const Pagelink = ({title, index} : {title: string, index: number}) => {
 
 
   return (
-    <Link onClick={handleClick} to={title == "Web Design" ? "/webdesign" : title == "App Design" ? "/appdesign" : "/graphicdesign"} className={`w-full bg-cover bg-no-repeat bg-center overflow-hidden flex-center rounded-lg ${index == 0 ? 'md:row-span-2 md:h-full h-60' : 'h-60'}`} style={ small ?{backgroundImage: `url(${imgSmall})` } : {backgroundImage: `url(${imgLarge})` }}>
+    <Link to={title == "Web Design" ? "/webdesign" : title == "App Design" ? "/appdesign" : "/graphicdesign"} className={`w-full bg-cover bg-no-repeat bg-center overflow-hidden flex-center rounded-lg ${index == 0 ? 'md:row-span-2 md:h-full h-60' : 'h-60'}`} style={ small ?{backgroundImage: `url(${imgSmall})` } : {backgroundImage: `url(${imgLarge})` }}>
 
         <section className={`w-full h-full bg-blend-multiply flex-center flex-col ${index == 0 ? 'md:bg-primary-100 md:bg-opacity-35' : 'bg-primary-200 bg-opacity-45'}`}>
 
