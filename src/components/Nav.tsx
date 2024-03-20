@@ -15,7 +15,7 @@ const Nav = () => {
     setToggle(!toggle);
   }
   return (
-    <header className="w-screen relative flex justify-between items-center py-10 px-6 h-20 md:h-36 ">
+    <header className="w-screen relative flex justify-between items-center py-6 md:mt-5 px-6 h-10 md:h-24 ">
 
         <Link to={"/"} className="flex-center w-6/12 md:w-4/12 ">
             <img src={logoImg} alt="Logo" />

@@ -3,7 +3,7 @@ import { fbImg, instaImg, logoLightImg, pinImg, twImg, yoytubeImg } from "../uti
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-200 p-4">
+    <footer className="bg-primary-200 p-4 pt-14">
         <section className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <div className="w-full flex justify-center items-center">
                 <img src={logoLightImg} className="w-8/12 max-w-96" alt="Logo" />
