@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Deshero from '../components/Deshero'
 import Productcard from '../components/Productcard'
 import ContactLink from '../components/ContactLink'
