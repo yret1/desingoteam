@@ -10,20 +10,25 @@ import Locations from "./pages/Locations"
 import Contact from "./pages/Contact"
 import { useEffect } from "react"
 
-function App() {
 
-
-  const {pathname} = useLocation()
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])
 
+  return null
+
+}
+
+function App() {
 
   return (
       <BrowserRouter>
     <main className="overflow-x-hidden w-screen">
       <Nav/>
+      <ScrollToTop/>
         <Routes>
           <Route path="/" index element={<Home/>}/>
           <Route path="/webdesign" element={<Webdes/>}/>
