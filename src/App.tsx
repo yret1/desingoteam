@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom"
+import { Route, Routes, BrowserRouter, useLocation } from "react-router-dom"
 import Footer from "./components/Footer"
 import Nav from "./components/Nav"
 import Home from "./pages/Home"
@@ -8,8 +8,16 @@ import Graphdes from "./pages/Graphdes"
 import Company from "./pages/Company"
 import Locations from "./pages/Locations"
 import Contact from "./pages/Contact"
+import { useEffect } from "react"
 
 function App() {
+
+
+  const {pathname} = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
 
 
   return (
